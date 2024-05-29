@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+li {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+li>a {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.barra_superior{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.barra_superior>li>a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 1rem 0 1rem;
+    font-size: 0.875rem;
+}
+.barra_superior>.login{
+    justify-content: right;
+}
+
+.linha{
+    color: white;
+    font-size: 0.1rem;
+    background-color: rgb(59, 56, 56);
+}
+
+.links {
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    align-items: center;
+    list-style: none;
+}
+.links>li{
+    justify-content: left;
+    display: inline-block;
+}
+.links>li>a{
+    color: white;
+    justify-content: left;
+    margin: 0 0.7rem 0 0.7rem;
+    font-size: 0.875rem;
+}
+
+.login>a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 1rem 0 36rem;
+    font-size: 0.875rem;
+}
+
+.inicio{
+    background-color: black;
+    display: flex;
+}
+.inicio>div{
+    color: white;
+    font-family: sans-serif;
+    flex-direction: column;
+    margin: 10rem 10rem 10rem 10rem;
+    
+}
+.inicio>div>h1{
+    font-size: 2rem;
+    font-family: Helvetica;
+    margin-bottom: 0.8rem;
+    font-weight: 100;
+}
+
+.inicio>div>p{
+    margin-bottom: 1.8rem;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.inicio>div>li>a{
+    font-weight: 600;
+    font-size: 500;
+    outline: solid 0px;
+    padding: 1rem;
+    border-radius: 2px;
+    background-color: red;
+    color: white;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logo_inferior{
+    margin: 1rem 0 0.5rem 1rem;
+}
+
+.inferior{
+    background-color: rgb(20, 20, 20);
+}
+.inferior>div{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.inferior>div>li{
+    color: white;
+    justify-content: left;
+    display: inline-block;
+}
+.inferior>div>li>a{
+    color: white;
+    justify-content: left;
+    margin: 0 0.7rem 0 0.7rem;
+    font-size: 0.7rem;
+}
+
+.arroba>li{
+    margin: 0 0 1rem 5rem;
+    font-size: 0.65rem;
+    color: rgb(70, 69, 69);
+}
+.final{
+    margin: 0.2rem 5rem 1rem 5rem;
+}
+
+.avisofinal>li>a{
+    font-size: 0.8rem;
+    color: rgb(171, 165, 255);
+    margin: 1rem 2rem 4rem 5.5rem;
+}
